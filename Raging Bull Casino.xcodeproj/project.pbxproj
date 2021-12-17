@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67B955B6276BDBF400047332 /* PlainHorizontalProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B955B5276BDBF400047332 /* PlainHorizontalProgressBar.swift */; };
+		67B955B8276BDC1C00047332 /* viewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B955B7276BDC1B00047332 /* viewExtension.swift */; };
+		67B955BA276BDC4400047332 /* PlainVerticalProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B955B9276BDC4400047332 /* PlainVerticalProgressBar.swift */; };
+		67B955C1276BDD0D00047332 /* JWL_AmbiGeneral.wav in Resources */ = {isa = PBXBuildFile; fileRef = 67B955C0276BDD0D00047332 /* JWL_AmbiGeneral.wav */; };
+		67B955C4276BDD8A00047332 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B955C3276BDD8A00047332 /* Level.swift */; };
+		67B955C7276BE4AE00047332 /* SlotsImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B955C6276BE4AE00047332 /* SlotsImage.swift */; };
+		67B955C9276BE76A00047332 /* WinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B955C8276BE76A00047332 /* WinViewController.swift */; };
+		67B955CB276BE77A00047332 /* SlotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B955CA276BE77A00047332 /* SlotViewController.swift */; };
+		67B955CD276BE7E100047332 /* AVPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B955CC276BE7E100047332 /* AVPlayerManager.swift */; };
+		67B955CF276BEB8800047332 /* AppUtillity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B955CE276BEB8800047332 /* AppUtillity.swift */; };
+		67B955D4276BF72900047332 /* 139001__jhka__revolver-chamber-spin-ratchet-sound-[AudioTrimmer.com].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 67B955D0276BF72900047332 /* 139001__jhka__revolver-chamber-spin-ratchet-sound-[AudioTrimmer.com].mp3 */; };
+		67B955D5276BF72900047332 /* 157728__davidkyoku__spinning-bicycle-wheel.wav in Resources */ = {isa = PBXBuildFile; fileRef = 67B955D1276BF72900047332 /* 157728__davidkyoku__spinning-bicycle-wheel.wav */; };
+		67B955D6276BF72900047332 /* tape-recorder-eject-1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 67B955D2276BF72900047332 /* tape-recorder-eject-1.wav */; };
+		67B955D7276BF72900047332 /* little_robot_sound_factory_Jingle_Win_Synth_06.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 67B955D3276BF72900047332 /* little_robot_sound_factory_Jingle_Win_Synth_06.mp3 */; };
+		67B955E0276BF79F00047332 /* MainTwo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67B955DF276BF79F00047332 /* MainTwo.storyboard */; };
+		67B955E4276BF7B700047332 /* BetCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67B955E3276BF7B700047332 /* BetCard.xib */; };
+		67B955E6276BF7BD00047332 /* BetBtn.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67B955E5276BF7BD00047332 /* BetBtn.xib */; };
+		67B955E8276BF7C900047332 /* BetCardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B955E7276BF7C900047332 /* BetCardController.swift */; };
+		67B955EA276BF7D300047332 /* BetBtnController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B955E9276BF7D300047332 /* BetBtnController.swift */; };
+		67B955EC276BF7DD00047332 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B955EB276BF7DD00047332 /* Item.swift */; };
+		67B955EE276BF7E600047332 /* RouletteNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B955ED276BF7E600047332 /* RouletteNumbers.swift */; };
+		67B955F0276BF7F500047332 /* MusicPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B955EF276BF7F500047332 /* MusicPlay.swift */; };
+		67B955F2276BF80300047332 /* WeelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B955F1276BF80300047332 /* WeelViewController.swift */; };
+		67B955F4276BF80D00047332 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B955F3276BF80D00047332 /* AboutViewController.swift */; };
+		67B955F6276BF83400047332 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B955F5276BF83400047332 /* ViewController.swift */; };
+		67B955F8276BF83F00047332 /* WinAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B955F7276BF83F00047332 /* WinAlertViewController.swift */; };
+		67B955FA276BF84C00047332 /* GameOverAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B955F9276BF84C00047332 /* GameOverAlertViewController.swift */; };
+		67B955FC276BF8D400047332 /* MainViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B955FB276BF8D400047332 /* MainViewExt.swift */; };
+		67B955FE276C0D9A00047332 /* SecondStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67B955FD276C0D9A00047332 /* SecondStoryboard.storyboard */; };
+		67B95600276C0DF700047332 /* SecondWVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B955FF276C0DF700047332 /* SecondWVC.swift */; };
+		67B95602276C0E2A00047332 /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B95601276C0E2A00047332 /* Builder.swift */; };
+		67B9560A276C0E8D00047332 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B95609276C0E8D00047332 /* NotificationService.swift */; };
+		67B9560E276C0E8D00047332 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 67B95607276C0E8D00047332 /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		67B95614276C13A100047332 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 67B95613276C13A100047332 /* GoogleService-Info.plist */; };
+		67CC48F9276132E1003CA990 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CC48F8276132E1003CA990 /* AppDelegate.swift */; };
+		67CC48FB276132E1003CA990 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CC48FA276132E1003CA990 /* SceneDelegate.swift */; };
+		67CC48FD276132E1003CA990 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CC48FC276132E1003CA990 /* MyViewController.swift */; };
+		67CC4900276132E1003CA990 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67CC48FE276132E1003CA990 /* Main.storyboard */; };
+		67CC4902276132E3003CA990 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67CC4901276132E3003CA990 /* Assets.xcassets */; };
+		67CC4905276132E3003CA990 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67CC4903276132E3003CA990 /* LaunchScreen.storyboard */; };
+		67CC490E2761404F003CA990 /* AnimationUtillity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CC490D2761404E003CA990 /* AnimationUtillity.swift */; };
+		67CC4912276143FA003CA990 /* GameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CC491027614079003CA990 /* GameCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67B9560C276C0E8D00047332 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67CC48ED276132E1003CA990 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67B95606276C0E8D00047332;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		67B95612276C0E8D00047332 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				67B9560E276C0E8D00047332 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		67B955B5276BDBF400047332 /* PlainHorizontalProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlainHorizontalProgressBar.swift; sourceTree = "<group>"; };
+		67B955B7276BDC1B00047332 /* viewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewExtension.swift; sourceTree = "<group>"; };
+		67B955B9276BDC4400047332 /* PlainVerticalProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlainVerticalProgressBar.swift; sourceTree = "<group>"; };
+		67B955C0276BDD0D00047332 /* JWL_AmbiGeneral.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = JWL_AmbiGeneral.wav; sourceTree = "<group>"; };
+		67B955C3276BDD8A00047332 /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		67B955C6276BE4AE00047332 /* SlotsImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotsImage.swift; sourceTree = "<group>"; };
+		67B955C8276BE76A00047332 /* WinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinViewController.swift; sourceTree = "<group>"; };
+		67B955CA276BE77A00047332 /* SlotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotViewController.swift; sourceTree = "<group>"; };
+		67B955CC276BE7E100047332 /* AVPlayerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayerManager.swift; sourceTree = "<group>"; };
+		67B955CE276BEB8800047332 /* AppUtillity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUtillity.swift; sourceTree = "<group>"; };
+		67B955D0276BF72900047332 /* 139001__jhka__revolver-chamber-spin-ratchet-sound-[AudioTrimmer.com].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "139001__jhka__revolver-chamber-spin-ratchet-sound-[AudioTrimmer.com].mp3"; sourceTree = "<group>"; };
+		67B955D1276BF72900047332 /* 157728__davidkyoku__spinning-bicycle-wheel.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "157728__davidkyoku__spinning-bicycle-wheel.wav"; sourceTree = "<group>"; };
+		67B955D2276BF72900047332 /* tape-recorder-eject-1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "tape-recorder-eject-1.wav"; sourceTree = "<group>"; };
+		67B955D3276BF72900047332 /* little_robot_sound_factory_Jingle_Win_Synth_06.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = little_robot_sound_factory_Jingle_Win_Synth_06.mp3; sourceTree = "<group>"; };
+		67B955DF276BF79F00047332 /* MainTwo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainTwo.storyboard; sourceTree = "<group>"; };
+		67B955E3276BF7B700047332 /* BetCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BetCard.xib; sourceTree = "<group>"; };
+		67B955E5276BF7BD00047332 /* BetBtn.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BetBtn.xib; sourceTree = "<group>"; };
+		67B955E7276BF7C900047332 /* BetCardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetCardController.swift; sourceTree = "<group>"; };
+		67B955E9276BF7D300047332 /* BetBtnController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetBtnController.swift; sourceTree = "<group>"; };
+		67B955EB276BF7DD00047332 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		67B955ED276BF7E600047332 /* RouletteNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouletteNumbers.swift; sourceTree = "<group>"; };
+		67B955EF276BF7F500047332 /* MusicPlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlay.swift; sourceTree = "<group>"; };
+		67B955F1276BF80300047332 /* WeelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeelViewController.swift; sourceTree = "<group>"; };
+		67B955F3276BF80D00047332 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		67B955F5276BF83400047332 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		67B955F7276BF83F00047332 /* WinAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinAlertViewController.swift; sourceTree = "<group>"; };
+		67B955F9276BF84C00047332 /* GameOverAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverAlertViewController.swift; sourceTree = "<group>"; };
+		67B955FB276BF8D400047332 /* MainViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewExt.swift; sourceTree = "<group>"; };
+		67B955FD276C0D9A00047332 /* SecondStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SecondStoryboard.storyboard; sourceTree = "<group>"; };
+		67B955FF276C0DF700047332 /* SecondWVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondWVC.swift; sourceTree = "<group>"; };
+		67B95601276C0E2A00047332 /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
+		67B95607276C0E8D00047332 /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		67B95609276C0E8D00047332 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		67B9560B276C0E8D00047332 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67B95613276C13A100047332 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		67CC48F5276132E1003CA990 /* Raging Bull Casino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Raging Bull Casino.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67CC48F8276132E1003CA990 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		67CC48FA276132E1003CA990 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		67CC48FC276132E1003CA990 /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		67CC48FF276132E1003CA990 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67CC4901276132E3003CA990 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67CC4904276132E3003CA990 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		67CC4906276132E3003CA990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67CC490D2761404E003CA990 /* AnimationUtillity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationUtillity.swift; sourceTree = "<group>"; };
+		67CC491027614079003CA990 /* GameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67B95604276C0E8D00047332 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67CC48F2276132E1003CA990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67B955BF276BDCDC00047332 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				67CC48FC276132E1003CA990 /* MyViewController.swift */,
+				67B955C8276BE76A00047332 /* WinViewController.swift */,
+				67B955CA276BE77A00047332 /* SlotViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		67B955C2276BDD1600047332 /* Recources */ = {
+			isa = PBXGroup;
+			children = (
+				67B955FD276C0D9A00047332 /* SecondStoryboard.storyboard */,
+				67B955D0276BF72900047332 /* 139001__jhka__revolver-chamber-spin-ratchet-sound-[AudioTrimmer.com].mp3 */,
+				67B955D1276BF72900047332 /* 157728__davidkyoku__spinning-bicycle-wheel.wav */,
+				67B955D3276BF72900047332 /* little_robot_sound_factory_Jingle_Win_Synth_06.mp3 */,
+				67B955D2276BF72900047332 /* tape-recorder-eject-1.wav */,
+				67B955C0276BDD0D00047332 /* JWL_AmbiGeneral.wav */,
+			);
+			path = Recources;
+			sourceTree = "<group>";
+		};
+		67B955C5276BE49C00047332 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				67B955C6276BE4AE00047332 /* SlotsImage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		67B955D8276BF74F00047332 /* Roulette */ = {
+			isa = PBXGroup;
+			children = (
+				67B955DE276BF79100047332 /* Controllers */,
+				67B955DD276BF78C00047332 /* Models */,
+				67B955DB276BF77900047332 /* CustomViews */,
+				67B955DA276BF76F00047332 /* Ext */,
+				67B955D9276BF75F00047332 /* Views */,
+			);
+			path = Roulette;
+			sourceTree = "<group>";
+		};
+		67B955D9276BF75F00047332 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				67B955DF276BF79F00047332 /* MainTwo.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		67B955DA276BF76F00047332 /* Ext */ = {
+			isa = PBXGroup;
+			children = (
+				67B955E7276BF7C900047332 /* BetCardController.swift */,
+				67B955E9276BF7D300047332 /* BetBtnController.swift */,
+				67B955FB276BF8D400047332 /* MainViewExt.swift */,
+			);
+			path = Ext;
+			sourceTree = "<group>";
+		};
+		67B955DB276BF77900047332 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				67B955E3276BF7B700047332 /* BetCard.xib */,
+				67B955E5276BF7BD00047332 /* BetBtn.xib */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		67B955DD276BF78C00047332 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				67B955EB276BF7DD00047332 /* Item.swift */,
+				67B955ED276BF7E600047332 /* RouletteNumbers.swift */,
+				67B955EF276BF7F500047332 /* MusicPlay.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		67B955DE276BF79100047332 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				67B955F1276BF80300047332 /* WeelViewController.swift */,
+				67B955FF276C0DF700047332 /* SecondWVC.swift */,
+				67B955F3276BF80D00047332 /* AboutViewController.swift */,
+				67B955F5276BF83400047332 /* ViewController.swift */,
+				67B955F7276BF83F00047332 /* WinAlertViewController.swift */,
+				67B955F9276BF84C00047332 /* GameOverAlertViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		67B95608276C0E8D00047332 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				67B95609276C0E8D00047332 /* NotificationService.swift */,
+				67B9560B276C0E8D00047332 /* Info.plist */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+		67CC48EC276132E1003CA990 = {
+			isa = PBXGroup;
+			children = (
+				67CC48F7276132E1003CA990 /* Raging Bull Casino */,
+				67B95608276C0E8D00047332 /* OneSignalNotificationServiceExtension */,
+				67CC48F6276132E1003CA990 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67CC48F6276132E1003CA990 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67CC48F5276132E1003CA990 /* Raging Bull Casino.app */,
+				67B95607276C0E8D00047332 /* OneSignalNotificationServiceExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67CC48F7276132E1003CA990 /* Raging Bull Casino */ = {
+			isa = PBXGroup;
+			children = (
+				67B955D8276BF74F00047332 /* Roulette */,
+				67B955C5276BE49C00047332 /* Models */,
+				67B955C2276BDD1600047332 /* Recources */,
+				67B955BF276BDCDC00047332 /* Controllers */,
+				67CC490F2761406D003CA990 /* Views */,
+				67CC490C27614041003CA990 /* Helpers */,
+				67CC48F8276132E1003CA990 /* AppDelegate.swift */,
+				67CC48FA276132E1003CA990 /* SceneDelegate.swift */,
+				67CC4901276132E3003CA990 /* Assets.xcassets */,
+				67CC4903276132E3003CA990 /* LaunchScreen.storyboard */,
+				67CC4906276132E3003CA990 /* Info.plist */,
+				67B95613276C13A100047332 /* GoogleService-Info.plist */,
+			);
+			path = "Raging Bull Casino";
+			sourceTree = "<group>";
+		};
+		67CC490C27614041003CA990 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				67CC490D2761404E003CA990 /* AnimationUtillity.swift */,
+				67B955B5276BDBF400047332 /* PlainHorizontalProgressBar.swift */,
+				67B955B7276BDC1B00047332 /* viewExtension.swift */,
+				67B955B9276BDC4400047332 /* PlainVerticalProgressBar.swift */,
+				67B955C3276BDD8A00047332 /* Level.swift */,
+				67B955CC276BE7E100047332 /* AVPlayerManager.swift */,
+				67B955CE276BEB8800047332 /* AppUtillity.swift */,
+				67B95601276C0E2A00047332 /* Builder.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		67CC490F2761406D003CA990 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				67CC48FE276132E1003CA990 /* Main.storyboard */,
+				67CC491027614079003CA990 /* GameCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67B95606276C0E8D00047332 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67B9560F276C0E8D00047332 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				67B95603276C0E8D00047332 /* Sources */,
+				67B95604276C0E8D00047332 /* Frameworks */,
+				67B95605276C0E8D00047332 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			productName = OneSignalNotificationServiceExtension;
+			productReference = 67B95607276C0E8D00047332 /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		67CC48F4276132E1003CA990 /* Raging Bull Casino */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67CC4909276132E3003CA990 /* Build configuration list for PBXNativeTarget "Raging Bull Casino" */;
+			buildPhases = (
+				67CC48F1276132E1003CA990 /* Sources */,
+				67CC48F2276132E1003CA990 /* Frameworks */,
+				67CC48F3276132E1003CA990 /* Resources */,
+				67B95612276C0E8D00047332 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67B9560D276C0E8D00047332 /* PBXTargetDependency */,
+			);
+			name = "Raging Bull Casino";
+			productName = "Raging Bull Casino";
+			productReference = 67CC48F5276132E1003CA990 /* Raging Bull Casino.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67CC48ED276132E1003CA990 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					67B95606276C0E8D00047332 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					67CC48F4276132E1003CA990 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 67CC48F0276132E1003CA990 /* Build configuration list for PBXProject "Raging Bull Casino" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67CC48EC276132E1003CA990;
+			productRefGroup = 67CC48F6276132E1003CA990 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67CC48F4276132E1003CA990 /* Raging Bull Casino */,
+				67B95606276C0E8D00047332 /* OneSignalNotificationServiceExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67B95605276C0E8D00047332 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67CC48F3276132E1003CA990 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67B95614276C13A100047332 /* GoogleService-Info.plist in Resources */,
+				67B955E6276BF7BD00047332 /* BetBtn.xib in Resources */,
+				67B955D6276BF72900047332 /* tape-recorder-eject-1.wav in Resources */,
+				67B955D7276BF72900047332 /* little_robot_sound_factory_Jingle_Win_Synth_06.mp3 in Resources */,
+				67CC4905276132E3003CA990 /* LaunchScreen.storyboard in Resources */,
+				67B955E4276BF7B700047332 /* BetCard.xib in Resources */,
+				67B955D4276BF72900047332 /* 139001__jhka__revolver-chamber-spin-ratchet-sound-[AudioTrimmer.com].mp3 in Resources */,
+				67CC4902276132E3003CA990 /* Assets.xcassets in Resources */,
+				67B955FE276C0D9A00047332 /* SecondStoryboard.storyboard in Resources */,
+				67B955D5276BF72900047332 /* 157728__davidkyoku__spinning-bicycle-wheel.wav in Resources */,
+				67B955C1276BDD0D00047332 /* JWL_AmbiGeneral.wav in Resources */,
+				67CC4900276132E1003CA990 /* Main.storyboard in Resources */,
+				67B955E0276BF79F00047332 /* MainTwo.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67B95603276C0E8D00047332 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67B9560A276C0E8D00047332 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67CC48F1276132E1003CA990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67CC4912276143FA003CA990 /* GameCell.swift in Sources */,
+				67B955BA276BDC4400047332 /* PlainVerticalProgressBar.swift in Sources */,
+				67B955F4276BF80D00047332 /* AboutViewController.swift in Sources */,
+				67B955B8276BDC1C00047332 /* viewExtension.swift in Sources */,
+				67B955F8276BF83F00047332 /* WinAlertViewController.swift in Sources */,
+				67B955C9276BE76A00047332 /* WinViewController.swift in Sources */,
+				67CC48FD276132E1003CA990 /* MyViewController.swift in Sources */,
+				67B955F0276BF7F500047332 /* MusicPlay.swift in Sources */,
+				67B955F6276BF83400047332 /* ViewController.swift in Sources */,
+				67B955EA276BF7D300047332 /* BetBtnController.swift in Sources */,
+				67B95600276C0DF700047332 /* SecondWVC.swift in Sources */,
+				67CC48F9276132E1003CA990 /* AppDelegate.swift in Sources */,
+				67B955EE276BF7E600047332 /* RouletteNumbers.swift in Sources */,
+				67CC490E2761404F003CA990 /* AnimationUtillity.swift in Sources */,
+				67B955B6276BDBF400047332 /* PlainHorizontalProgressBar.swift in Sources */,
+				67B955CD276BE7E100047332 /* AVPlayerManager.swift in Sources */,
+				67B955EC276BF7DD00047332 /* Item.swift in Sources */,
+				67B955C4276BDD8A00047332 /* Level.swift in Sources */,
+				67B955FA276BF84C00047332 /* GameOverAlertViewController.swift in Sources */,
+				67B955CF276BEB8800047332 /* AppUtillity.swift in Sources */,
+				67B955FC276BF8D400047332 /* MainViewExt.swift in Sources */,
+				67B955E8276BF7C900047332 /* BetCardController.swift in Sources */,
+				67B955C7276BE4AE00047332 /* SlotsImage.swift in Sources */,
+				67B95602276C0E2A00047332 /* Builder.swift in Sources */,
+				67B955F2276BF80300047332 /* WeelViewController.swift in Sources */,
+				67B955CB276BE77A00047332 /* SlotViewController.swift in Sources */,
+				67CC48FB276132E1003CA990 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67B9560D276C0E8D00047332 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67B95606276C0E8D00047332 /* OneSignalNotificationServiceExtension */;
+			targetProxy = 67B9560C276C0E8D00047332 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		67CC48FE276132E1003CA990 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67CC48FF276132E1003CA990 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		67CC4903276132E3003CA990 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67CC4904276132E3003CA990 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67B95610276C0E8D00047332 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Raging-Bull.Raging-Bull-Casino.OneSignalNotificationServiceExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67B95611276C0E8D00047332 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Raging-Bull.Raging-Bull-Casino.OneSignalNotificationServiceExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		67CC4907276132E3003CA990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		67CC4908276132E3003CA990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67CC490A276132E3003CA990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Raging Bull Casino/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Raging-Bull.Raging-Bull-Casino";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		67CC490B276132E3003CA990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Raging Bull Casino/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Raging-Bull.Raging-Bull-Casino";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67B9560F276C0E8D00047332 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67B95610276C0E8D00047332 /* Debug */,
+				67B95611276C0E8D00047332 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67CC48F0276132E1003CA990 /* Build configuration list for PBXProject "Raging Bull Casino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67CC4907276132E3003CA990 /* Debug */,
+				67CC4908276132E3003CA990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67CC4909276132E3003CA990 /* Build configuration list for PBXNativeTarget "Raging Bull Casino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67CC490A276132E3003CA990 /* Debug */,
+				67CC490B276132E3003CA990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67CC48ED276132E1003CA990 /* Project object */;
+}
